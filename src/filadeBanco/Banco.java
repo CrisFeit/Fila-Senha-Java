@@ -397,7 +397,7 @@ public class Banco extends javax.swing.JFrame {
         fila2 = new Fila(tam);
         txtConv.setModel(fila.list);
         txtPref.setModel(fila2.list2);
-        status.setText("\n \n       ---------------   Fial Iniciada Capacidade :"+tam+" Pessoas  -------------   ");
+        status.setText("\n \n       ---------------   Fila Iniciada Capacidade : "+tam+" Pessoas  -------------   ");
         } catch (Exception e) {
             status.setText("\n \n           -----------------------   Digite o Tamanho da Fila   --------------------   ");
         }
